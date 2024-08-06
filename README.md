@@ -1,2 +1,2 @@
-# OpenMM
-Open Metamaterial Tools for 
+# OpenAMM
+Open Acoustic MetaMaterial Tools 
