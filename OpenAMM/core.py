@@ -12,7 +12,7 @@ class Metamaterial:
             properties (dict): A dictionary of material properties.
         """
         try:
-            exists(properties)
+            properties
         except NameError:
             print("my_variable does not exist")
         else:
@@ -20,7 +20,7 @@ class Metamaterial:
         self.properties = properties
 
     
-    def compute_response(self, frequency):
+    def compute_response(self, frequency: object) -> object:
         """
         Compute the response of the metamaterial at a given frequency.
         
@@ -31,10 +31,11 @@ class Metamaterial:
             response (float): The computed response.
         """
         # Placeholder for actual computation logic
-        response = self.properties.get('density', 1.0) * frequency
+        response = self.properties.get('density') * frequency
         return response
 
 def example_function():
+
     properties = {'density':    1.21,
                   'type':       1}
     frequency = np.linspace(0.001, 6000, 50)
