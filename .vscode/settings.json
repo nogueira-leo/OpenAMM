@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "onFocusChange",
+    "python.envFile": "${workspaceFolder}/.venv",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.testing.pytestEnabled": true,
+    "debugpy.showPythonInlineValues": true,
+    "python.testing.unittestEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    
+}
